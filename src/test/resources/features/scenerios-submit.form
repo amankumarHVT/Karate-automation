@@ -1,0 +1,99 @@
+Scenario 01: Verify E2E scenario for Submit form API
+Scenario 02: Verify That all the Mandatory fields are present as described in Body of Submit form API
+    (or)  // Verify the API response if any mandatory field is absent
+Scenario 03: Verify the  API response if entered data is of incorrect datatype
+
+
+
+
+Scenario : Verify E2E HappyPath for Submit form API
+
+Scenario : Verify API response if "Zip" field is missing
+Scenario : Verify API response if "Zip" field string is empty
+Scenario : Verify API response if entered data in "Zip" field is null
+Scenario : Verify API response if entered data in "Zip" field is "null" (a null String)
+Scenario : Verify API response if entered data in "Zip" field is  not numeric
+Scenario : Verify API response if the the entered data exceeds 5 integers
+//Scenario : Verify API response if the not in the valid(ex:000000, 000001 etc.)
+//Scenario : Verify API response if the not in the valid format according to country
+
+
+Scenario : Verify API response if "City" field is missing
+Scenario : Verify API response if "City" field string is empty
+Scenario : Verify API response if entered data in "City" field is null
+Scenario : Verify API response if entered data in "City" field is not characters only
+Scenario : Verify API response if the the entered data exceeds more than 30 characters
+Scenario : Verify API response if entered data in "City" field is not from that country and state
+
+
+Scenario : Verify API response if "email" field is missing
+Scenario : Verify API response if "email" field string is empty
+Scenario : Verify API response if entered data in "email" field is null
+Scenario : Verify API response if the the entered data exceeds more than 100 characters
+//Scenario : Verify API response if entered data in "email" field is in invalid format
+//Scenario : Verify API response if the email is already registered
+
+Scenario : Verify API response if "state" field is missing
+Scenario : Verify API response if "state" field string is empty
+Scenario : Verify API response if entered data in "state" field is not characters only
+Scenario : Verify API response if entered data in "state" field is null
+Scenario : Verify API response if the entered data exceeds more than 02 characters
+//Scenario : Verify API response if the State is not from that country list
+//Scenario : Verify API response if the entered data is not capital( case to if needed)
+
+Scenario : Verify API response if "country" field is missing
+Scenario : Verify API response if "country" field string is empty
+Scenario : Verify API response if entered data in "country" field is not characters only
+Scenario : Verify API response if entered data in "country" field is null
+Scenario : Verify API response if the  entered data exceeds more than 02 characters
+Scenario : Verify API response if the entered name is not existing or invalid
+Scenario : Verify API response if the entered names other than  us ca
+
+Scenario : Verify API response if "surName" field is missing
+Scenario : Verify API response if "surName" field string is empty
+Scenario : Verify API response if entered data in "surName" field is not characters only
+Scenario : Verify API response if entered data in "surName" field is null
+Scenario : Verify API response if the entered data exceeds more than 30 characters
+Scenario : Verify API response if the entered data is invalid according to any BR
+
+Scenario : Verify API response if "firstName" field is missing
+Scenario : Verify API response if "firstName" field string is empty
+Scenario : Verify API response if entered data in "firstName" field is null
+Scenario : Verify API response if entered data in "firstName" field is not characters only
+// Scenario : Verify API response if the the entered data exceeds more than 11 characters
+//Scenario : Verify API response if the entered data is invalid according to any BR
+special name signs
+
+Scenario : Verify API response if "nationalId" field is missing
+Scenario : Verify API response if "nationalId" field string is empty
+Scenario : Verify API response if entered data in "Zip" field consists of any character
+Scenario : Verify API response if entered data in "nationalId" field is null
+Scenario : Verify API response if the the entered data exceeds 21 indexes
+Scenario : Verify API response if the entered data is invalid according to defined format
+
+Scenario : Verify API response if "mobileNumber" field is missing
+Scenario : Verify API response if "mobileNumber" field string is empty
+Scenario : Verify API response if entered data in "mobileNumber" field consists of any character
+Scenario : Verify API response if entered data in "mobileNumber" field is null
+Scenario : Verify API response if the the entered data exceeds 21 indexes
+Scenario : Verify API response if the entered data is invalid according to defined conditions based on the state and country(ex: +1........)
+
+Scenario : Verify API response if "physicalAddress" field is missing
+Scenario : Verify API response if "physicalAddress" field string is empty
+Scenario : Verify API response if entered data in "physicalAddress" field is null
+Scenario : Verify API response if the the entered data exceeds 45 indexes
+Scenario : Verify API response if the entered data is invalid format according to the state and country
+
+Scenario : Verify API response if "fingerprint" field is missing
+Scenario : Verify API response if "fingerprint" field string is empty
+Scenario : Verify API response if entered data in "fingerprint" field is null
+Scenario : Verify API response if the the entered data exceeds 101 indexes
+Scenario : Verify API response if the entered data is not complete or invalid
+
+Scenario : Verify API response if "dob" field is missing
+Scenario : Verify API response if "dob" field string is empty
+Scenario : Verify API response if entered data in "dob" field consists of any character
+Scenario : Verify API response if entered data in "dob" field is null
+Scenario : Verify API response if the the entered data exceeds 21 indexes
+Scenario : Verify API response if the entered data is invalid format(contrains that month<=12 and days<=31/30/28/29)
+Scenario : Verify API response if the entered data is invalid value(ex: 0000-00-00, 0101-00-2224)
